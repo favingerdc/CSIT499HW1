@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/unkmap"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/SEButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="South-East Campus"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="196dp"
+        tools:layout_editor_absoluteY="339dp" />
+
+    <Button
+        android:id="@+id/SWButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="South-West Campus"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="307dp" />
+
+    <Button
+        android:id="@+id/NEButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="North-East Campus"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="209dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <TextView
+        android:id="@+id/buttonText"
+        android:layout_width="wrap_content"
+        android:layout_height="112dp"
+        android:text="Please click a button corresponding to the location on campus you want to learn about!"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+</android.support.constraint.ConstraintLayout>
